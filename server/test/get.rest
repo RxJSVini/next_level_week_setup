@@ -1,0 +1,7 @@
+POST http://localhost:3333/habits
+content-type: application/json
+
+{
+    "title": "Teste pelo rest api",
+    "weekDays":[1, 2, 3]
+}
